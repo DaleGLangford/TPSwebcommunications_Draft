@@ -25,6 +25,8 @@ body {
 	overflow: hidden;
 	background-color: #000000;
 	position: sticky;
+	display:flex;
+	justify-content: center;
 }
 
 li {
@@ -36,8 +38,11 @@ li a{
 	display: inline-block;
 	color:white;
 	text-decoration: none;
-	width: 110px;
+	width: 25vw;
+	margin: 0;
 	padding: 10px 0px;
+	letter-spacing: 1px;
+	flex: 1;
 }
 
 
@@ -70,7 +75,7 @@ li a:hover{
 		color:white;
 		display:list-item;
 		text-decoration: none;
-		width: 100px;
+		width: 24.7;
 		padding: 10px 0px;
 	}
   }
