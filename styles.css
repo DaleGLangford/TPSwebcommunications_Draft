@@ -1,1 +1,417 @@
+body {
+	background-color:white;
+	font-size: 18px;
+	margin:0;
+	padding:0;
+	color: black;
+	font-family: 'Montserrat', arial, helvetica, sans-serif;
+}	
 
+/* ################# Header Image ################# */
+.header{
+	background-image: url(images/Banner.png);
+	margin:0;
+	padding:0;
+	height:10vw
+}
+
+
+/* ################# Navbar ################# */
+.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	top:0;	
+	overflow: hidden;
+	background-color: #000000;
+	position: sticky;
+}
+
+li {
+	float:left;
+	text-align:center;
+}
+
+li a{
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	width: 110px;
+	padding: 10px 0px;
+}
+
+
+
+li a:focus{
+	border-color:#02b1b1;
+	border-style: solid;
+	background-color:#fafafa;
+	color:#020202;
+	font-weight: bold;
+
+}
+
+
+li a:hover{
+	background-color:#02b1b1;
+	color:#181717;
+	font-weight: bold;
+
+}
+
+.active{
+	display: block;
+	background-color:#016868;
+}
+
+@media only screen and (max-width: 350px) {
+
+	li a{
+		color:white;
+		display:list-item;
+		text-decoration: none;
+		width: 100px;
+		padding: 10px 0px;
+	}
+  }
+
+/*   ################# Links #################  */
+.link{
+	font-weight:bold;
+	text-decoration: none;
+	color:#016868;
+}
+
+.link:hover{
+	color:#08bbbb;
+	font-size: 15pt;
+
+}
+
+.link:focus{
+	background-color: #05eeee;
+	color:#000000;	
+}		
+
+/*   ################# WebpageIntro #################  */
+
+.intro{
+	border-bottom:solid;
+	border-color: #000000;
+	border-width: 1pt;
+	width:60%;
+	margin:auto;
+}
+
+.headerText{
+	font-size:20pt;
+	text-align: center;
+	color:#020202
+}
+.headerText2{
+	font-size:15pt;
+	text-align: center;
+	color:#000000;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+
+
+/*   ################# BLOCKS #################  */
+
+.blockTitle{
+	padding: 0.5vw;
+	margin-top: 0;
+	margin-left: 20vw;
+	margin-right:20vw;
+
+}
+.aboutMe {
+	display:flex;
+	padding: 0.5vw;
+	margin-top: 0;
+	margin-left: 20vw;
+	margin-right:20vw;
+}
+
+
+.block1 {
+	width: 60%;
+	padding: 0.5vw;
+	margin-top: 0;
+	margin:auto
+
+}
+
+.block2 {
+	padding: 0.5vw;
+	margin-top: 0;
+	margin-left: 20vw;
+	margin-right:20vw;
+}
+
+.block3 {
+	padding: 0.5vw;
+	margin-top: 0;
+	margin-left: 20vw;
+	margin-right:20vw;
+	text-align:center;
+}
+
+.block4 {
+	padding: 0.5vw;
+	margin-top: 0;
+}
+
+.projects {
+	margin-top: 0;
+	margin-left: 20vw;
+	margin-right:20vw;
+	overflow:auto;
+}
+
+@media only screen and (max-width: 800px) {
+	.block1 {
+		width: 80%;
+		padding: 0.5vw;
+		margin-top: 0;
+		margin:auto
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+	.projects {
+		display:flex;
+		width:80%;
+		padding: 0.5vw;
+		margin-top: 0;
+		margin:auto
+	
+	}
+}
+
+.picturegallery{
+	padding:20px;
+	margin:auto;
+	text-align:center;
+}
+
+#contactMap {
+	height: 400px;
+	/* The height is 400 pixels */
+	width: 100%;
+	/* The width is the width of the web page */
+  }
+
+
+/*   ################# MEDIA #################  */
+@media only screen and (max-width: 1000px) {
+
+	.blockTitle{
+		padding: 0.5vw;
+		margin-top: 0;
+		margin-left: 20px;
+		margin-right:20px;
+	}
+
+	.aboutMe {
+		display:flex;
+		padding: 0.5vw;
+		margin-top: 0;
+		margin-left: 20px;
+		margin-right:20px;
+	}
+
+	.headshot{
+		border-radius: 100%;
+		float: right;
+		margin-right:30px;
+	}
+}
+
+
+@media only screen and (max-width: 500px) {
+
+	.aboutMe{
+		padding: 0.5vw;
+		margin-top: 0;
+		width: 80%;
+		margin: auto;
+	}
+	.headshot{
+		display:none;
+	}
+  }
+
+/*  ################# TEXT #################  */
+
+
+.title1 {
+	font-size: 30px;
+}
+
+.title2{
+	font-weight:bold;
+	font-size:20px;
+	color:#009999;
+	margin-top: 5px;
+	margin-bottom:0px;
+}
+
+.title3 {
+	width:60%;
+	margin: auto;
+	font-size: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+	.title3 {
+		width:80%;
+		margin: auto;
+		font-size: 30px;
+	}
+}
+
+.aboutText{
+	margin-top: 0;
+	text-align: justify;
+}
+
+.employer{
+	font-weight:bold;
+	font-size:20px;
+}
+
+.projdesc{
+	text-align: justify;
+	font-size:20px;
+}
+
+.text1{
+	font-size:25px;	
+}
+.text2{
+	margin-top: 0;
+	text-align: justify;
+}
+
+
+
+/* ################# Images ################# */
+
+.headshot{
+	border-radius: 100%;
+	margin-right:30px;
+}
+.image{
+	border-radius: 10px;
+	float: right;
+	margin:auto;
+}	
+
+
+@media only screen and (max-width: 900px) {
+
+	.image{
+		border-radius: 10px;
+		float: right;
+		height:100%;
+		width: 100%;
+		margin:auto;
+		padding-bottom: 3vw;
+	}
+  }
+
+  .image2{
+	border-radius: 10px;
+	float: right;
+	margin:auto;
+	margin-left:1vw;
+}	
+
+@media only screen and (max-width: 900px) {
+
+	.image2{
+		border-radius: 10px;
+		height:100%;
+		width: 100%;
+		float:right;
+		margin:auto;
+		padding-bottom: 3vw;
+	}
+  }
+
+@media only screen and (max-width: 500px) {
+
+	.image2{
+		display: none;
+	}
+  }
+
+
+
+
+
+
+/* ################# Contact Form ################# */
+
+.contactForm{
+	padding: 0.5vw;
+	margin-top: 0;
+	margin-left: 20vw;
+	margin-right:20vw;
+	text-align:center;
+}
+
+label{
+	margin-top: 2vw;
+}
+
+.submission{
+	width:70%;
+	margin-top:1vw;
+}
+
+.submission:focus{
+	background-color: #4fd3d3;
+}
+
+input[type=submit] {
+	background-color: #016868;
+	color: white;
+	padding: 1vw 2vw;
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+	background-color: #02b1b1;
+  }
+
+input:focus {
+	background-color: #4fd3d3;		
+	}
+
+/* ################# Footer ################# */
+
+.footer {
+	background-color: #016868;
+	position: static;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+}
+	
+.foottext {
+	color:rgb(255, 255, 255);
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 1vw;
+	margin-bottom: 0;
+	padding: 1vw;
+}
