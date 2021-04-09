@@ -23,7 +23,7 @@ body {
 	padding:0;
 	top:0;	
 	overflow: hidden;
-	background-color: #000000;
+	background-color: #070342;
 	position: sticky;
 	display:flex;
 	justify-content: center;
@@ -46,7 +46,7 @@ li a{
 }
 
 li a:focus{
-	border-color:#02b1b1;
+	border-color:#2c98ce;
 	background-color:#fafafa;
 	color:#020202;
 	font-weight: bold;
@@ -55,7 +55,7 @@ li a:focus{
 
 
 li a:hover{
-	background-color:#02b1b1;
+	background-color:#2c98ce;
 	color:#181717;
 	font-weight: bold;
 
@@ -63,7 +63,7 @@ li a:hover{
 
 .active{
 	display: block;
-	background-color:#016868;
+	background-color:#1d61b5;
 }
 
 @media only screen and (max-width: 350px) {
@@ -81,11 +81,11 @@ li a:hover{
 .link{
 	font-weight:bold;
 	text-decoration: none;
-	color:#016868;
+	color:#070342;
 }
 
 .link:hover{
-	color:#08bbbb;
+	color:#1d61b5;
 	font-size: 15pt;
 
 }
@@ -129,7 +129,7 @@ li a:hover{
 	margin-right:20vw;
 
 }
-.aboutMe {
+.generalDiv {
 	display:flex;
 	padding: 0.5vw;
 	margin-top: 0;
@@ -218,7 +218,7 @@ li a:hover{
 		margin-right:20px;
 	}
 
-	.aboutMe {
+	.generalDiv {
 		display:flex;
 		padding: 0.5vw;
 		margin-top: 0;
@@ -236,7 +236,7 @@ li a:hover{
 
 @media only screen and (max-width: 500px) {
 
-	.aboutMe{
+	.generalDiv{
 		padding: 0.5vw;
 		margin-top: 0;
 		width: 80%;
@@ -276,12 +276,12 @@ li a:hover{
 	}
 }
 
-.aboutText{
+.generalText{
 	margin-top: 0;
 	text-align: justify;
 }
 
-.HomeSubHead{
+.homeSubHead{
 	font-weight:bold;
 	font-size:20px;
 }
@@ -355,7 +355,7 @@ li a:hover{
 /* ################# Footer ################# */
 
 .footer {
-	background-color: #016868;
+	background-color: #070342;
 	position: static;
 	width: 100%;
 	bottom: 0px;
