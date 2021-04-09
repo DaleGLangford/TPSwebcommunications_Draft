@@ -2,13 +2,11 @@
 
 // Initialize and add the map
 function initMap() {
-    // The location of my old place in Stony
-    const Ontario = { lat: 43.943726362759605, lng: -78.70952221169588 }; // centre on Sountern Ontario 43.943726362759605, -78.70952221169588
-    
-    const map = new google.maps.Map(document.getElementById("teamMap"), {
-    zoom: 10,
-    center: Ontario, // centres on Lakehead
-    mapTypeId: "terrain",
+    const map = new google.maps.Map(document.getElementById("map"), {
+        // Ontario
+        center: { lat: 43.943726362759605, lng: -78.70952221169588 },
+        mapTypeId: "terrain",
+        zoom: 10
     });
 
 
