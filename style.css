@@ -23,7 +23,7 @@ body {
 	padding:0;
 	top:0;	
 	overflow: hidden;
-	background-color: #070342;
+	background-color: #084594;
 	position: sticky;
 	display:flex;
 	justify-content: center;
@@ -46,7 +46,7 @@ li a{
 }
 
 li a:focus{
-	border-color:#2c98ce;
+	border-color:#9c6af1;
 	background-color:#fafafa;
 	color:#020202;
 	font-weight: bold;
@@ -55,7 +55,7 @@ li a:focus{
 
 
 li a:hover{
-	background-color:#2c98ce;
+	background-color:#9ecae1;
 	color:#181717;
 	font-weight: bold;
 
@@ -63,7 +63,7 @@ li a:hover{
 
 .active{
 	display: block;
-	background-color:#1d61b5;
+	background-color:#4292c6;
 }
 
 @media only screen and (max-width: 350px) {
@@ -81,17 +81,17 @@ li a:hover{
 .link{
 	font-weight:bold;
 	text-decoration: none;
-	color:#070342;
+	color:#084594;
 }
 
 .link:hover{
-	color:#1d61b5;
+	color:#4292c6;
 	font-size: 15pt;
 
 }
 
 .link:focus{
-	background-color: #05eeee;
+	background-color: #9c6af1;
 	color:#000000;	
 }		
 
@@ -355,7 +355,7 @@ li a:hover{
 /* ################# Footer ################# */
 
 .footer {
-	background-color: #070342;
+	background-color: #084594;
 	position: static;
 	width: 100%;
 	bottom: 0px;
