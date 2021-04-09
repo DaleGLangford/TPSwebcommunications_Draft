@@ -137,13 +137,14 @@ li a:hover{
 	margin-right:20vw;
 }
 
-
 .block1 {
-	width: 60%;
 	padding: 0.5vw;
 	margin-top: 0;
-	margin:auto
-
+	margin-left: 20vw;
+	margin-right:20vw;
+	border-bottom:solid;
+	border-color: #000000;
+	border-width: 1pt;
 }
 
 .block2 {
@@ -161,44 +162,9 @@ li a:hover{
 	text-align:center;
 }
 
-.block4 {
-	padding: 0.5vw;
-	margin-top: 0;
-}
 
-.projects {
-	margin-top: 0;
-	margin-left: 20vw;
-	margin-right:20vw;
-	overflow:auto;
-}
 
-@media only screen and (max-width: 800px) {
-	.block1 {
-		width: 80%;
-		padding: 0.5vw;
-		margin-top: 0;
-		margin:auto
-	}
-
-}
-
-@media only screen and (max-width: 500px) {
-	.projects {
-		display:flex;
-		width:80%;
-		padding: 0.5vw;
-		margin-top: 0;
-		margin:auto
-	
-	}
-}
-
-.picturegallery{
-	padding:20px;
-	margin:auto;
-	text-align:center;
-}
+/*   ################# MAP #################  */
 
 #teamMap {
 	height: 400px;
@@ -212,14 +178,6 @@ li a:hover{
 @media only screen and (max-width: 1000px) {
 
 	.blockTitle{
-		padding: 0.5vw;
-		margin-top: 0;
-		margin-left: 20px;
-		margin-right:20px;
-	}
-
-	.generalDiv {
-		display:flex;
 		padding: 0.5vw;
 		margin-top: 0;
 		margin-left: 20px;
