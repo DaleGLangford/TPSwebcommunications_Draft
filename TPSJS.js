@@ -3,7 +3,7 @@
 // Initialize and add the map
 function initMap() {
     // The location of my old place in Stony
-    const Ontario = { lat: 52.05640827732168, lng: -0.8504520908370468 }; // Home Location 52.05640827732168, -0.8504520908370468
+    const Ontario = { lat: 43.943726362759605, lng: -78.70952221169588 }; // centre on Sountern Ontario 43.943726362759605, -78.70952221169588
     
     const map = new google.maps.Map(document.getElementById("teamMap"), {
     zoom: 10,
@@ -14,7 +14,7 @@ function initMap() {
 
     // Marker for Dale
 
-    const DaleLocation = {lat: 123, lng: 123}
+    const DaleLocation = {lat: 43.91176793798334, lng: -78.68743210405533} // Bowmanville 43.91176793798334, -78.68743210405533
     const marker = new google.maps.Marker({
     position: DaleLocation,
     map: map,
@@ -34,7 +34,7 @@ function initMap() {
     
     // Marker for EricMcNeil
 
-    const EMcLocation = {lat: 123, lng: 123} // Get location
+    const EMcLocation = {lat: 42.77880563811117, lng: -81.18124239146222} // St. Thomas 42.77880563811117, -81.18124239146222
     const marker = new google.maps.Marker({
     position: EMcLocation,
     map: map,
@@ -54,7 +54,7 @@ function initMap() {
 
     // Eric Millan
 
-    const EMillanLocation = {lat: 123, lng: 123} // Get location
+    const EMillanLocation = {lat: 44.23047096753822, lng: -76.48123839624441} // Kingston 44.23047096753822, -76.48123839624441
     const marker = new google.maps.Marker({
     position: EMillanLocation,
     map: map,
