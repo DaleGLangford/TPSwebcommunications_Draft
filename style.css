@@ -45,11 +45,8 @@ li a{
 	flex: 1;
 }
 
-
-
 li a:focus{
 	border-color:#02b1b1;
-	border-style: solid;
 	background-color:#fafafa;
 	color:#020202;
 	font-weight: bold;
